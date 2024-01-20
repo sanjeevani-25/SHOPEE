@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Smartphone XYZ",
+    "price": 499.99,
+    "description": "A high-performance smartphone with advanced features.",
+    "ratings": 4.5,
+    "images": [
+      {
+        "public_id": "image123",
+        "url": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "TechStore Inc.",
+    "stock": 100,
+    "numOfReviews": 20,
+    "review": [
+      {
+        "name": "John Doe",
+        "rating": 4.0,
+        "comment": "Great phone! Fast delivery and excellent customer service."
+      }
+    ],
+    "createdAt": "2024-01-18"
+  },
+  {
+    "name": "Smartwatch ABC",
+    "price": 199.99,
+    "description": "A stylish smartwatch with fitness tracking capabilities.",
+    "ratings": 4.2,
+    "images": [
+      {
+        "public_id": "image456",
+        "url": "https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-watch4-classic-399208-sm-r890nzsainu-481181009?$1300_1038_PNG$"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "GadgetHub LLC",
+    "stock": 50,
+    "numOfReviews": 15,
+    "reviews": [
+      {
+        "name": "Jane Smith",
+        "rating": 4.5,
+        "comment": "Love the design and functionality!"
+      }
+    ],
+    "createdAt": "2024-01-19"
+  },
+  {
+    "name": "Laptop Pro",
+    "price": 1299.99,
+    "description": "Powerful laptop for professional use with a sleek design.",
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "image789",
+        "url": "https://m.media-amazon.com/images/I/81m1tlvW3bL._SX522_.jpg"
+      }
+    ],
+    "category": "Computers",
+    "seller": "TechGear Solutions",
+    "stock": 30,
+    "numOfReviews": 25,
+    "reviews": [
+      {
+        "name": "Alex Johnson",
+        "rating": 5.0,
+        "comment": "Incredible performance and build quality!"
+      }
+    ],
+    "createdAt": "2024-01-20"
+  },
+  {
+    "name": "Mountain Bike Z1",
+    "price": 899.99,
+    "description": "A rugged mountain bike for off-road adventures.",
+    "ratings": 4.7,
+    "images": [
+      {
+        "public_id": "image101",
+        "url": "https://m.media-amazon.com/images/I/61r3W4DRfdL._SX679_.jpg"
+      }
+    ],
+    "category": "Bicycles",
+    "seller": "CycleMaster Co.",
+    "stock": 30,
+    "numOfReviews": 12,
+    "reviews": [
+      {
+        "name": "David Thompson",
+        "rating": 4.8,
+        "comment": "Excellent bike for trail riding!"
+      }
+    ],
+    "createdAt": "2024-01-21"
+  },
+  {
+    "name": "City Commuter Bike",
+    "price": 549.99,
+    "description": "A comfortable and stylish bike for daily commuting.",
+    "ratings": 4.3,
+    "images": [
+      {
+        "public_id": "image202",
+        "url": "https://m.media-amazon.com/images/I/81bv4yFMheL._SX679_.jpg"
+      }
+    ],
+    "category": "Bicycles",
+    "seller": "UrbanRide Bikes",
+    "stock": 25,
+    "numOfReviews": 8,
+    "reviews": [
+      {
+        "name": "Emily Davis",
+        "rating": 4.0,
+        "comment": "Smooth ride, perfect for city commuting."
+      }
+    ],
+    "createdAt": "2024-01-22"
+  }
+]
