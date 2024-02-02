@@ -22,7 +22,7 @@ const userSchema = new mongoose.Schema({
     select: false,
   },
   avatar: {
-    publib_id: {
+    public_id: {
       type: String,
       required: true,
     },
@@ -50,6 +50,11 @@ userSchema.pre("save", async function (next) {
   }
   this.password = await bcrypt.hash(this.password, 10);
 });
+
+// compare password
+userSchema.methods.comparePassword = async function (enteredPassword) {
+  return await bcrypt.compare(enteredPassword, this.password);
+};
 
 // return jwt token
 userSchema.methods.getJwtToken = function () {
