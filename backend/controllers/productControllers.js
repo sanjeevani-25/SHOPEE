@@ -6,11 +6,20 @@ const APIFeatures = require("../utils/apiFeatures");
 
 // Crete new product => api/v1/admin/product/new
 exports.newProduct = catchAsyncErrors(async (req, res, next) => {
+  req.body.user = req.user.id;
+  // console.log(req.body.user);
+  console.log(req.body);
+  // console.log(req.user);
+
   const product = await Product.create(req.body);
-  res.status(201).json({
-    success: true,
-    product,
-  });
+  try {
+    res.status(201).json({
+      success: true,
+      product,
+    });
+  } catch (error) {
+    return next(new ErrorHandler("Error creating product", 500));
+  }
 });
 
 exports.getProducts = catchAsyncErrors(async (req, res, next) => {
